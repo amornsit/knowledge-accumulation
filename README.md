@@ -1,6 +1,5 @@
-Knowledge Accumulation 
+# Knowledge Accumulation
 
-#Purpose
+## Purpose
 
-This repository is for accumulate knowledge. 
-
+This repository is for accumulating knowledge.
