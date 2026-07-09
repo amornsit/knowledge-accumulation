@@ -31,6 +31,13 @@ Rules for adding notes so the collection stays consistent and searchable as it g
 - After adding a note, add a line to `INDEX.md` under the right topic heading.
 - The index is curated by hand — it is the fastest way to find things.
 
+## Linting
+
+- Markdown style (`markdownlint-cli2`) and dead links (`lychee`) are checked on
+  every commit and in CI. See the [Linting section in the README](README.md#linting).
+- Config lives in `.markdownlint-cli2.jsonc` and `lychee.toml`. `templates/` is
+  excluded, since it holds placeholder titles and links.
+
 ## Attribution
 
 - Summaries distill third-party work. Cite the original author and link.

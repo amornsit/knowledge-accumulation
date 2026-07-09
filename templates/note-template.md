@@ -7,9 +7,7 @@ source: <URL or citation, if summarizing an external work>
 
 # <Title>
 
-> One-sentence takeaway — the single thing to remember.
-
-## Context
+## Notes
 
 Why this matters / where it came up.
 
@@ -17,17 +15,3 @@ Why this matters / where it came up.
 
 - ...
 - ...
-
-at maximum 5 key points 
-
-## Details
-
-Longer explanation, examples, code snippets.
-
-## Related
-
-- [[other-note]]
-
----
-
-*Source: <Author, "Title" — URL>*  <!-- remove if this is an original note -->
