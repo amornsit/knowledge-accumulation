@@ -8,7 +8,7 @@ A curated table of contents. Add a line here whenever you add a note.
 
 ## Notes
 
-_(none yet — atomic notes go in `notes/`)_
+- [pre-commit](notes/pre-commit-command.md) — installing, running, and configuring Git pre-commit hooks.
 
 ## References
 
