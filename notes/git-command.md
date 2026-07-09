@@ -46,9 +46,25 @@ tags: [Git, programming]
 | --- | --- |
 | git remote -v | list remotes |
 | git fetch | download remote changes (don't merge) |
+| git fetch origin | refresh origin/* refs from the remote; no change to your files or branches |
+| git fetch --prune | fetch, and drop origin/* refs for branches deleted on the remote |
 | git pull | fetch + merge remote into currenct branch |
 | git push | upload commits to remote |
 | git push -u origin [branch] | push + set upstream (first push of a branch) |
+| git rev-list --left-right --count main...origin/main | count commits local is behind/ahead of remote (prints `behind ahead`) |
+
+#### Check whether local and remote are in sync
+
+Always `git fetch` first — it refreshes the `origin/main` pointer. Without it you
+compare against a stale snapshot and can wrongly think you're up to date.
+
+- `git fetch origin` then `git status` → tells you directly: "up to date",
+  "behind N" (need `git pull`), "ahead N" (need `git push`), or "diverged".
+- `git rev-list --left-right --count main...origin/main` → prints two numbers,
+  `behind  ahead`: `0  0` = in sync, `2  0` = pull, `0  1` = push.
+
+`git pull` = `git fetch` + `git merge origin/main`. Fetch only moves the `origin/*`
+pointer — your files and local branch don't change until you pull or merge.
 
 ### Undo and fix mistakes
 
