@@ -60,3 +60,4 @@ leaving the terminal. Think: `git` manages commits, `gh` manages GitHub.
 | gh browse | open the current repo/file on github.com |
 | gh release create [tag] | publish a new release |
 | gh gist create [file] | share a file as a gist |
+| gh release list --repo actions/checkout [ --json tagName -q .tagName] | view latest version of actions/checkout|
