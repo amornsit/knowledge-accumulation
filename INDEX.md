@@ -9,6 +9,7 @@ A curated table of contents. Add a line here whenever you add a note.
 ## Software Craft & Testing
 
 - [Test-Driven Development By Example](summaries/test-driven-development-by-example-summary.md) — Kent Beck's red/green/refactor discipline, the three gears to green, and the TDD pattern catalog.
+- [Working Effectively with Legacy Code](summaries/working-effectively-with-legacy-code-summary.md) — Michael Feathers on getting untested code under test: the change algorithm, characterization tests, seams, and dependency-breaking.
 
 ## Notes
 
