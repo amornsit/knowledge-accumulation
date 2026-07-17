@@ -6,6 +6,11 @@ A curated table of contents. Add a line here whenever you add a note.
 
 - [Agentic Engineering Patterns](summaries/agentic-engineering-patterns-summary.md) — practical workflow summary of Simon Willison's guide on using LLM coding agents in a project.
 
+## Software Engineering & Project Management
+
+- [The Mythical Man-Month](summaries/mythical-man-month-summary.md) — Fred Brooks on why software projects slip: Brooks's Law, conceptual integrity, the surgical team, and "No Silver Bullet."
+- [The Pragmatic Programmer (20th Anniversary Edition)](summaries/pragmatic-programmer-summary.md) — Hunt & Thomas on the pragmatic mindset: DRY, ETC (easier to change), tracer bullets, pragmatic paranoia, and testing as design.
+
 ## Software Craft & Testing
 
 - [Test-Driven Development By Example](summaries/test-driven-development-by-example-summary.md) — Kent Beck's red/green/refactor discipline, the three gears to green, and the TDD pattern catalog.
