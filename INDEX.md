@@ -22,10 +22,9 @@ A curated table of contents. Add a line here whenever you add a note.
 
 ## Skills
 
-Portable [Claude Code](https://docs.claude.com/en/docs/claude-code) skills, kept here as source of truth (symlinked into `~/.claude/skills/`). See [`skills/README.md`](skills/README.md).
-
-- [tdd](skills/tdd/SKILL.md) — TDD discipline for a coding agent, built from Kent Beck's *TDD By Example*: red/green/refactor, the three gears to green, and characterization tests for untested code.
-- [working-with-legacy-code](skills/working-with-legacy-code/SKILL.md) — getting untested, hard-to-test code under test, built from Michael Feathers' *Working Effectively with Legacy Code*: the change algorithm, characterization tests, seams, and dependency-breaking. Chains into `tdd`.
+The portable [Claude Code](https://docs.claude.com/en/docs/claude-code) skills now live in their
+own repo: **[amornsit/agent-skills](https://github.com/amornsit/agent-skills)**. The `tdd` and
+`working-with-legacy-code` skills there were distilled from the book summaries above.
 
 ## References
 
